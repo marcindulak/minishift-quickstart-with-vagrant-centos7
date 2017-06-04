@@ -3,10 +3,10 @@ Description
 -----------
 
 `minishift`'s quickstart guide https://docs.openshift.org/latest/minishift/getting-started/quickstart.html
-performed using libvirt/kvm nested virtualization under `vagrant`.
+performed on CentOS 7 using libvirt/kvm nested virtualization under `vagrant`.
 Example requested at https://github.com/minishift/minishift/issues/974
 
-![nodejs-ex](https://raw.github.com/marcindulak/minishift-quickstart-with-vagrant/master/screenshots/nodejs-ex.png)
+![nodejs-ex](https://raw.github.com/marcindulak/minishift-quickstart-with-vagrant-centos7/master/screenshots/nodejs-ex.png)
 
 Tested on Ubuntu 16.04 host.
 
@@ -48,8 +48,8 @@ is active on the host machine.
 
 Start the VM guest on which `minishift` will be installed:
 
-        $ git clone https://github.com/marcindulak/minishift-quickstart-with-vagrant.git
-        $ cd minishift-quickstart-with-vagrant
+        $ git clone https://github.com/marcindulak/minishift-quickstart-with-vagrant-centos7.git
+        $ cd minishift-quickstart-with-vagrant-centos7
         $ vagrant plugin install vagrant-libvirt
         $ vagrant up --no-parallel
 
